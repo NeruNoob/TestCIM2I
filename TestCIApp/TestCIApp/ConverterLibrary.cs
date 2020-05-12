@@ -10,7 +10,7 @@ namespace TestCIApp
     {
         public int GetInt(string nbr)
         {
-            return int.Parse(nbr) + 1; // Ook !
+            return int.Parse(nbr); // Ook !
         }
     }
 }
